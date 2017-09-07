@@ -55,26 +55,26 @@ import edu.gatech.oad.antlab.pkg2.*;
         String toPrint =
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
-		  //Person1 replace P1 with your name
-		  //and gburdell1 with your gt id
-		  Person1 nicholas = new Person1("Nicholas");
-		  toPrint += nicholas.toString("nwan3");
-		  //Person2 replace P2 with your name
-		  //and gburdell with your gt id
-		  Person2 jonathan = new Person2("Jonathan");
-		  toPrint += jonathan.toString("903129868");
-		  //Person3 replace P3 with your name
-		  //and gburdell3 with your gt id
-		  Person3 kun = new Person3("Kun");
-		  toPrint += kun.toString("kchen350");
-                  //Person4 replace P4 with your name
-                  //and gburdell4 with your gt id
-                  Person4 robert = new Person4("Robert");
-                  toPrint += robert.toString("rlin45");
-                  //Person5 replace P4 with your name
-                  //and gburdell5 with your gt id
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("gburdell5");
+    	  //Person1 replace P1 with your name
+    	  //and gburdell1 with your gt id
+    	  Person1 nicholas = new Person1("Nicholas");
+    	  toPrint += nicholas.toString("nwan3");
+    	  //Person2 replace P2 with your name
+    	  //and gburdell with your gt id
+    	  Person2 jonathan = new Person2("Jonathan");
+    	  toPrint += jonathan.toString("903129868");
+    	  //Person3 replace P3 with your name
+    	  //and gburdell3 with your gt id
+    	  Person3 kun = new Person3("Kun");
+    	  toPrint += kun.toString("kchen350");
+          //Person4 replace P4 with your name
+          //and gburdell4 with your gt id
+          Person4 robert = new Person4("Robert");
+          toPrint += robert.toString("rlin45");
+          //Person5 replace P4 with your name
+          //and gburdell5 with your gt id
+          Person5 neil = new Person5("Neil");
+          toPrint += neil.toString("iponir3");
 
         System.out.println(toPrint);
 
