@@ -32,8 +32,8 @@ public class Person4 {
     private String calc(String input) {
       //Person 4 put your implementation here
     	char[] result = input.toCharArray();
-    	while (int i = 0; i < result.length(); i++) {
-      	      result[i] = result[i] + 1;
+    	for (int i = 0; i < result.length; i++) {
+      	      result[i] = (char) (result[i] + 1);
 	}
 	return new String(result);	
     }
